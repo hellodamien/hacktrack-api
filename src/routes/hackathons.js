@@ -41,6 +41,7 @@ router.get('/:id', async (req, res) => {
     select: {
       id: true,
       name: true,
+      description: true,
       startDate: true,
       endDate: true,
       theme: true,
